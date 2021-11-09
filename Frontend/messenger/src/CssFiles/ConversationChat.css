@@ -1,0 +1,33 @@
+.ConversationBox {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.SendBox {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.ConversationMessage {
+    display: flex;
+    flex-grow: 2;
+    margin: 2%;
+    overflow: auto;
+}   
+
+.Textfield {
+    width: 90%;
+}
+
+.Textfield:focus {
+    border-color: #0275d8;
+    outline:#0275d8;
+}
+
+.Conversationmessages{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}

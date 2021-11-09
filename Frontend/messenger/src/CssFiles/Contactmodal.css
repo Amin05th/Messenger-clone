@@ -1,0 +1,44 @@
+.ContactmodalBox{
+    height: 230px;
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.exitButton {
+    position: absolute;
+    right: 0;
+    top: 0%;
+}
+
+.ContactInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.ContactInput:focus {
+    border-color: #0275d8;
+    outline:#0275d8;
+}
+
+.CreateContact {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #0275d8;
+    color: white;
+}
+
+.Label{
+    display: flex;
+    text-align: left;
+    margin-left: 10%;
+}
